@@ -1,11 +1,10 @@
 .header {
   display: grid;
-  grid-template-columns: 500px 296px 1fr;
+  grid-template-columns: 546px 273px 596px;
   place-items: end;
   gap: 1px;
   padding-top: 100px;
-  padding-right: 25px;
-  padding-left: 25px;
+
   /* padding: 105px 79px 82px 21px; */
 }
 
