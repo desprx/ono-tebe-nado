@@ -4,6 +4,7 @@
   place-items: end;
   gap: 1px;
   padding-top: 100px;
+  padding-left: 79px;
 
   /* padding: 105px 79px 82px 21px; */
 }
@@ -11,7 +12,6 @@
 .header__menu {
   display: flex;
 
-  align-items: center;
   gap: 32px;
   place-self: center center;
 }
@@ -22,10 +22,6 @@
   font-weight: 400;
   line-height: normal;
   list-style: circle;
-}
-
-.main {
-  padding-top: 88px;
 }
 
 /* .header__links-list-item {
@@ -46,13 +42,13 @@
   text-decoration-line: none;
 }
 
-.header_logo {
-  display: block;
+.header__logo {
+  width: 140px;
+  height: 105px;
 }
 
 .header__logo-image {
-  width: 140px;
-  height: 105px;
+  display: block;
 }
 
 .address {
@@ -65,6 +61,9 @@
   line-height: 24.3px; /* 135% */
 }
 
+.main {
+  padding-top: 88px;
+}
 /* шапка */
 /*
 .cover {
