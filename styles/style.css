@@ -1,19 +1,18 @@
 .header {
   display: grid;
-  grid-template-columns: 546px 273px 596px;
-  place-items: end;
-  gap: 1px;
-  padding-top: 100px;
-  padding-left: 79px;
+  grid-template-columns: repeat(3, 1fr);
 
-  /* padding: 105px 79px 82px 21px; */
+  justify-items: center;
+  justify-content: space-between;
+  padding: 102px 21px 87px 79px;
 }
 
 .header__menu {
   display: flex;
 
   gap: 32px;
-  place-self: center center;
+  justify-self: start;
+  align-self: center;
 }
 .header__links-list {
   font-family: Raleway, sans-serif;
@@ -52,8 +51,9 @@
 }
 
 .address {
-  color: #000;
   justify-self: end;
+  align-self: center;
+  color: #000;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -61,10 +61,8 @@
   line-height: 24.3px; /* 135% */
 }
 
-.main {
-  padding-top: 88px;
-}
 /* шапка */
+
 /*
 .cover {
     
@@ -169,7 +167,7 @@
   text-transform: uppercase;
   width: 90%;
   height: 90%;
-  padding: 165px 50px 0 50px;
+  padding: 160px 50px 0 50px;
   line-height: 115%;
   font-family: Raleway, sans-serif;
 }
@@ -203,7 +201,7 @@
 .aligned-text_right-one {
   line-height: 100%;
   text-align: right;
-  padding-left: 77%;
+  padding-left: 922px;
 }
 
 .no-letter-spacing {
@@ -215,10 +213,9 @@
   display: flex;
   align-items: center;
   z-index: 1;
-
-  margin: -25px;
-  padding-left: 446px;
-  padding-right: 77px;
+  padding-top: 655px;
+  padding-left: 420px;
+  padding-right: 51px;
 }
 
 .cover__description-text {
@@ -249,11 +246,12 @@
   width: 341px;
   height: 49px;
 }
-
-/* Секция ковер, очень много паддингов и подгонки по размерам, но все встало, просто идеально! */
-
+/* Секция ковер,
+очень много паддингов и подгонки по размерам,
+но все встало,
+просто идеально!  */
 .lots {
-  padding: 183px 50px 0 50px;
+  padding: 181px 50px 0 50px;
   /* width: 100%; */
 }
 
@@ -266,7 +264,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding-left: 38px;
+  margin: 0 0 25px 40px;
 }
 
 .lots__card-list {
@@ -275,7 +273,6 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 25px;
-  padding-top: 25px;
 }
 
 .lots__card-list-item {
@@ -298,7 +295,7 @@
   justify-content: space-between;
   width: 430px;
   height: 450px;
-  padding: 52px 40px;
+  padding: 50px 40px;
   position: relative;
   z-index: 1;
   background-size: cover;
@@ -354,7 +351,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 32px 0px 0px 40px;
+  padding: 32px 0px 0px 40px;
   display: block;
   text-decoration: underline;
 }
