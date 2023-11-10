@@ -4,7 +4,7 @@
 
   justify-items: center;
   justify-content: space-between;
-  padding: 102px 21px 87px 79px;
+  padding: 102px 79px 87px 21px;
 }
 
 .header__menu {
@@ -141,7 +141,7 @@
 По крайней мере не для пиксель перфекта.
   */
 .cover {
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   width: 100%;
 
   height: 757px;
@@ -304,21 +304,21 @@
 }
 
 .card_type_picture {
-  background-image: url(./images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .card_type_book {
-  background-image: url(./images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .card_type_film {
-  background-image: url(./images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   width: 100%;
   background-size: cover;
   background-position: center;
