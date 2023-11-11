@@ -166,7 +166,7 @@
 
 /* Секция ковер*/
 .lots {
-  padding: 180px 50px 0 50px;
+  padding: 180px 50px 181px;
 }
 
 .lots__heading {
@@ -268,7 +268,7 @@
 /* секция с карточками. */
 
 .about {
-  padding: 181px 50px 0px 30px;
+  padding: 0 50px 180px;
 
   display: grid;
   grid-template-columns: auto 888px;
@@ -328,7 +328,7 @@
 /* секция эбаут */
 
 .footer {
-  padding: 179px 50px 80px 50px;
+  padding: 0 50px 90px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
