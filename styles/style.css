@@ -45,8 +45,8 @@
   height: 105px;
 }
 
-.header__logo-image {
-}
+/* .header__logo-image {
+} */
 
 .address {
   width: 240px;
@@ -328,7 +328,7 @@
 /* секция эбаут */
 
 .footer {
-  padding: 179px 50px 90px 50px;
+  padding: 179px 50px 80px 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
