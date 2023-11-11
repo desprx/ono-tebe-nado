@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   justify-content: space-between;
-  padding: 99px 21px 87px 82px;
+  padding: 103px 21px 85px 82px;
 }
 
 .header__menu {
@@ -63,7 +63,7 @@
 
 /* шапка */
 .cover {
-  padding: 165px 50px 50px;
+  padding: 163px 50px 50px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
@@ -166,7 +166,7 @@
 
 /* Секция ковер*/
 .lots {
-  padding: 180px 50px 181px;
+  padding: 182px 50px 181px;
 }
 
 .lots__heading {
@@ -268,7 +268,7 @@
 /* секция с карточками. */
 
 .about {
-  padding: 0 50px 180px;
+  padding: 0px 47px 182px 27px;
 
   display: grid;
   grid-template-columns: auto 888px;
