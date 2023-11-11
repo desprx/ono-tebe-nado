@@ -52,7 +52,7 @@
   width: 240px;
   justify-self: end;
   align-self: end;
-  text-wrap: wrap;
+  white-space: nowrap;
   color: #000;
   font-family: Raleway, sans-serif, Arial;
   font-size: 18px;
