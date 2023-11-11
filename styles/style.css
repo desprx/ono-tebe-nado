@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   justify-content: space-between;
-  padding: 103px 21px 85px 82px;
+  padding: 103px 21px 85px 79px;
 }
 
 .header__menu {
@@ -52,7 +52,7 @@
   width: 240px;
   justify-self: end;
   align-self: end;
-
+  text-wrap: wrap;
   color: #000;
   font-family: Raleway, sans-serif, Arial;
   font-size: 18px;
