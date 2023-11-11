@@ -328,7 +328,7 @@
 /* секция эбаут */
 
 .footer {
-  padding: 0 50px 90px;
+  padding: 0 50px 1px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
