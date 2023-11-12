@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   justify-content: space-between;
-  padding: 104px 21px 84px 78px;
+  padding: 92px 49px 92px 51px;
 }
 
 .header__menu {
@@ -328,7 +328,7 @@
 /* секция эбаут */
 
 .footer {
-  padding: 0 50px 1px;
+  padding: 0 50px 90px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
